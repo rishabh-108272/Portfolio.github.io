@@ -1,1 +1,168 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/portfolio-logo.jpg" class="logo">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>      
+     </nav>
+     <div class="header-text">
+        <p>Enthusiastic Learner</p>
+        <h3>Hi, I'm <span>Rishabh Verma</span><br> from West Bengal,India</h3>
+     </div>
+    </div>
+
+</div> 
+<!--About-->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+              <img src="images/user.jpg">  
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I want to be a software engineer because it is a profession that combines my interests in technology, problem solving, and working with people. As a software engineer, I would have the opportunity to work on a variety of projects, using different programming languages and tools. I would also be able to collaborate with other engineers to design and build new applications or improve existing ones.
+                </p>
+                <br>
+               <div class="tab1">
+                <h2><span>Skills</span></h2>
+               <pre><p>C program</p></pre> 
+                <p>Knowledge of Basics of C program</p>
+                <br>
+                <pre><p>C++ program</p></pre>
+                <p>Knowledge of basics of C++ program</p>
+
+               </div>
+               <br>
+               <div class="tab2">
+                <h2><span>Education</span></h2>
+                <pre><p>Class 10</p></pre>
+                <p>Completed my 10th board from CBSE.</p>
+                <br>
+              <pre><p>Class 12</p></pre>  
+                <p>Completed my 12th board from CBSE.</p>
+               </div>
+            </div>
+        </div>
+    </div>
+ </div>
+  <!---Portfolio-->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work1">
+               
+                <img src="images/work1.png">
+            
+                
+                    <a class="layer" href="images/portfolio.html" >
+                        <div>
+                        <h3>Portfolio</h3>
+                
+                        <p>Made my first portfolio website.</p>
+                        
+                        </div>
+                    </a>
+                   
+                
+            </div>
+       
+            <div class="work2">
+
+               
+                <img src="images/coding.jpg">
+                
+
+                       
+                        
+                            <a href="https://www.holopin.io/@rishabh_108272" class="layer1">
+                                <div>
+                                    <h3>Hacktoberfest</h3>
+                    <p>Took part in Hacktoberfest.</p>
+                
+                </div>
+                            </a>
+                           
+                            
+                    
+            </div>
+        </div>
+        <a href="https://github.com/rishabh-108272" class="btn">See more</a>
+    </div>
+  </div>
+  <!---Contact-->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+           
+
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                
+                </div>
+            </div>
+            <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+            <div class="contact-right">
+                
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="your name" required>
+                <input type="email" name="email" placeholder="your email" required>
+            <textarea name="message"  rows="6" placeholder="your Message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>             
+     </form>
+     <span id="msg">Hello!</span>
+     <br>
+     <br>
+     <div class="text">
+     <pre><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACa0lEQVRoge2YP2/TQBiH30tBFapUqQPqwsRciQ8BQ9MKSv+BoJSqihiY+hXYYEAChBiKoKKFUAQLiIEFMcHHYEPMFAmFpE4fhjjo8tZOfPHZWe6ZUvu9935Pat/ZEQkEAoFAIDA6zKAC4KyIXBCRqeLj/KcpIj9E5LMx5leuTkANaFM+baDm5esANkuWOAJu5wk8CdxVxzZKkmgDm2ruO8CEi8B83OwhYKzj60BUYPgI2FBZ7sfnZl0EbllNt4GKde4qcFhQ+JvWPAZ4YJ3Pfj8AW6r5UyVxxbNEBKyr8I9UzVYeAYBnSmLVk0QE3FDhHyfU5RYAqANjVt0K0MoZfk2Ff5JS60UAYB84YdUuDykRAdetPhVgp0+9NwGAN0piHvjrEL4FLFnjx4AXA8Z4FQB4C5wcQqIFLKrwexnGeRcAeKckqkCjT30TuKzCv8w4VyECAB+B8QwSTWBBha87zJMoUEk66MhvEYm6fxhjPonIsog0rJo/IrJojPmgxh55mP84Dv+BV1jLqupxLj5fB2ZSakZ6CemVqAq8B0716TtO577RK9Bu2QJ79G5oF+lc4wBfgemEntPAt7gmaRkdtBJ5E9jtE77LAXCPzia3FH8+UDWuEl4EXqvwVdw2ME0EXLP6VUjf0HIL7ND7MJc3vKtELoGiwrtIOAnUrIHPVfg5z+FtCf1wZ0s4vdDMxoP0O8Aljt+wPmkBKykScy4CE3TeiOzwCwWH73IIrCqJbWAys0CCUFGXTRo9l1MuRhDellgblC/LT4tTInJeRM6IyGkRSXz28UxDRH6KyBdjzPcS5gsEAoFAIDAU/wDgY1ol7OPYyAAAAABJRU5ErkJggg=="> rishitibest123@gmail.com</p></pre>
+     <br>
+                <pre><p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACcUlEQVRoge3Zz4uNURzH8XMxRokNNYwoWYixlGQlsSMbjaKk/PgTlKWV7FCi+Q+sjN+NLPzIZiwY+RlFysaPmRIl0sviuVfj3ueae55n7nOUee+euud7P+++T/ec870hzDBDOrATo/iM+9iYOlMU6ME5rUxgWep8HYEFuJYj0eBq6oxTgn48+YtEg32ps7YFfXjRgQSMY2nqzC1gLu51KNHgYurcLeBopESDvamz/wHeFBT5iCUps89qel5csM6iEMKZklmmD7ws2JEGu1Nlb+7Io5L1jpVcX5hmkZGS9VaUXF+YZpHhEMLPEvXGSqwtxR8itVrtfQjhVol6Z8vFmUZkJ90iPERzh9OBGsYKiGxLnb0FDEZKXEqdOZd6V+5EiBxInbktGMD3DkXGsSp15rbgRERXHmB+6sy5oLcesFNuojd17lywFl8jZC5gTurcueBQhAgMoZY6dy7ypyl/42TqzLnIRkO3ImVO/ZOdkQ0mXkXKDGF26uwtYAXeRsoMY17q7C1gHT5FyozI2WcwG/tlo9gfeIbBKmU2yGbBMYyZdALAFu33qcvor0pmK75FyozjAK508NmP2FOVzM4CMrEMq2Kiic3iX7NYJnC4Cpn1+NBlGbiO5d2WGcC7CmQmsKHbMivFb5pFGJ38vdM+LKjVaq9DCJtCCHenu3YTqyc/dGXqUR8rbQ0hDHWjfp3HXazdCg6Ku890yvZKReoya8TdNKfidOUSk2R6cVznA412XPcv3EBlP9G3C0o8wsLUDr+Rzc12iXvdnqIvdfZc6kI7cEN2hG/HHRT9N61asEh2Kj6P5/iC1ziCntT5Zvhv+QVbrlOM9uHioAAAAABJRU5ErkJggg=="> +91 6290253034</p></pre>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/rishabh-108272"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgMGgtMTRjLTIuNzYxIDAtNSAyLjIzOS01IDV2MTRjMCAyLjc2MSAyLjIzOSA1IDUgNWgxNGMyLjc2MiAwIDUtMi4yMzkgNS01di0xNGMwLTIuNzYxLTIuMjM4LTUtNS01em0tNC40NjYgMTkuNTljLS40MDUuMDc4LS41MzQtLjE3MS0uNTM0LS4zODR2LTIuMTk1YzAtLjc0Ny0uMjYyLTEuMjMzLS41NS0xLjQ4MSAxLjc4Mi0uMTk4IDMuNjU0LS44NzUgMy42NTQtMy45NDcgMC0uODc0LS4zMTItMS41ODgtLjgyMy0yLjE0Ny4wODItLjIwMi4zNTYtMS4wMTYtLjA3OS0yLjExNyAwIDAtLjY3MS0uMjE1LTIuMTk4LjgyLS42NC0uMTgtMS4zMjQtLjI2Ny0yLjAwNC0uMjcxLS42OC4wMDMtMS4zNjQuMDkxLTIuMDAzLjI2OS0xLjUyOC0xLjAzNS0yLjItLjgyLTIuMi0uODItLjQzNCAxLjEwMi0uMTYgMS45MTUtLjA3NyAyLjExOC0uNTEyLjU2LS44MjQgMS4yNzMtLjgyNCAyLjE0NyAwIDMuMDY0IDEuODY3IDMuNzUxIDMuNjQ1IDMuOTU0LS4yMjkuMi0uNDM2LjU1Mi0uNTA4IDEuMDctLjQ1Ny4yMDQtMS42MTQuNTU3LTIuMzI4LS42NjYgMCAwLS40MjMtLjc2OC0xLjIyNy0uODI1IDAgMC0uNzgtLjAxLS4wNTUuNDg3IDAgMCAuNTI1LjI0Ni44ODkgMS4xNyAwIDAgLjQ2MyAxLjQyOCAyLjY4OC45NDR2MS40ODljMCAuMjExLS4xMjkuNDU5LS41MjguMzg1LTMuMTgtMS4wNTctNS40NzItNC4wNTYtNS40NzItNy41OSAwLTQuNDE5IDMuNTgyLTggOC04czggMy41ODEgOCA4YzAgMy41MzMtMi4yODkgNi41MzEtNS40NjYgNy41OXoiLz48L3N2Zz4=">
+                    <a href="https://www.linkedin.com/in/rishabh-verma-875214247/"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgMGgtMTRjLTIuNzYxIDAtNSAyLjIzOS01IDV2MTRjMCAyLjc2MSAyLjIzOSA1IDUgNWgxNGMyLjc2MiAwIDUtMi4yMzkgNS01di0xNGMwLTIuNzYxLTIuMjM4LTUtNS01em0tMTEgMTloLTN2LTExaDN2MTF6bS0xLjUtMTIuMjY4Yy0uOTY2IDAtMS43NS0uNzktMS43NS0xLjc2NHMuNzg0LTEuNzY0IDEuNzUtMS43NjQgMS43NS43OSAxLjc1IDEuNzY0LS43ODMgMS43NjQtMS43NSAxLjc2NHptMTMuNSAxMi4yNjhoLTN2LTUuNjA0YzAtMy4zNjgtNC0zLjExMy00IDB2NS42MDRoLTN2LTExaDN2MS43NjVjMS4zOTYtMi41ODYgNy0yLjc3NyA3IDIuNDc2djYuNzU5eiIvPjwvc3ZnPg=="></a>
+                    <a href="https://twitter.com/home"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwdjI0aDI0di0yNGgtMjR6bTE4Ljg2MiA5LjIzN2MuMjA4IDQuNjE3LTMuMjM1IDkuNzY1LTkuMzMgOS43NjUtMS44NTQgMC0zLjU3OS0uNTQzLTUuMDMyLTEuNDc1IDEuNzQyLjIwNSAzLjQ4LS4yNzggNC44Ni0xLjM1OS0xLjQzNy0uMDI3LTIuNjQ5LS45NzYtMy4wNjYtMi4yOC41MTUuMDk4IDEuMDIxLjA2OSAxLjQ4Mi0uMDU2LTEuNTc5LS4zMTctMi42NjgtMS43MzktMi42MzMtMy4yNi40NDIuMjQ2Ljk0OS4zOTQgMS40ODYuNDExLTEuNDYxLS45NzctMS44NzUtMi45MDctMS4wMTYtNC4zODMgMS42MTkgMS45ODYgNC4wMzggMy4yOTMgNi43NjYgMy40My0uNDc5LTIuMDUzIDEuMDc5LTQuMDMgMy4xOTgtNC4wMy45NDQgMCAxLjc5Ny4zOTggMi4zOTYgMS4wMzcuNzQ4LS4xNDcgMS40NTEtLjQyIDIuMDg1LS43OTYtLjI0NS43NjctLjc2NiAxLjQxLTEuNDQzIDEuODE2LjY2NC0uMDggMS4yOTctLjI1NiAxLjg4NS0uNTE3LS40NC42NTYtLjk5NyAxLjIzNC0xLjYzOCAxLjY5N3oiLz48L3N2Zz4="></a>
+                    <a href="https://www.instagram.com/"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTQuNjY3IDEyYzAgMS40NzMtMS4xOTQgMi42NjctMi42NjcgMi42NjctMS40NzMgMC0yLjY2Ny0xLjE5My0yLjY2Ny0yLjY2NyAwLTEuNDczIDEuMTk0LTIuNjY3IDIuNjY3LTIuNjY3IDEuNDczIDAgMi42NjcgMS4xOTQgMi42NjcgMi42Njd6bTMuODQ2LTMuMjMyYy4wMzguODQzLjA0NiAxLjA5Ni4wNDYgMy4yMzJzLS4wMDggMi4zODktLjA0NiAzLjIzM2MtLjEgMi4xNS0xLjEwOSAzLjE4MS0zLjI3OSAzLjI3OS0uODQ0LjAzOC0xLjA5Ny4wNDctMy4yMzQuMDQ3LTIuMTM2IDAtMi4zOS0uMDA4LTMuMjMyLS4wNDYtMi4xNzQtLjA5OS0zLjE4MS0xLjEzMi0zLjI3OS0zLjI3OS0uMDM5LS44NDUtLjA0OC0xLjA5OC0uMDQ4LTMuMjM0cy4wMDktMi4zODkuMDQ3LTMuMjMyYy4wOTktMi4xNTIgMS4xMDktMy4xODEgMy4yNzktMy4yNzkuODQ0LS4wMzkgMS4wOTctLjA0NyAzLjIzMy0uMDQ3czIuMzkuMDA4IDMuMjMzLjA0NmMyLjE2OC4wOTkgMy4xOCAxLjEyOCAzLjI4IDMuMjh6bS0yLjQwNSAzLjIzMmMwLTIuMjY5LTEuODQtNC4xMDgtNC4xMDgtNC4xMDgtMi4yNjkgMC00LjEwOCAxLjgzOS00LjEwOCA0LjEwOCAwIDIuMjY5IDEuODQgNC4xMDggNC4xMDggNC4xMDggMi4yNjkgMCA0LjEwOC0xLjgzOSA0LjEwOC00LjEwOHptMS4xMjItNC4yN2MwLS41My0uNDMtLjk2LS45Ni0uOTZzLS45Ni40My0uOTYuOTYuNDMuOTYuOTYuOTZjLjUzMSAwIC45Ni0uNDMuOTYtLjk2em02Ljc3LTcuNzN2MjRoLTI0di0yNGgyNHptLTQgMTJjMC0yLjE3Mi0uMDA5LTIuNDQ1LS4wNDgtMy4yOTgtLjEzMS0yLjkwMi0xLjc0NS00LjUyLTQuNjUzLTQuNjUzLS44NTQtLjA0LTEuMTI2LS4wNDktMy4yOTktLjA0OXMtMi40NDQuMDA5LTMuMjk4LjA0OGMtMi45MDYuMTMzLTQuNTIgMS43NDUtNC42NTQgNC42NTMtLjAzOS44NTQtLjA0OCAxLjEyNy0uMDQ4IDMuMjk5IDAgMi4xNzMuMDA5IDIuNDQ1LjA0OCAzLjI5OC4xMzQgMi45MDYgMS43NDYgNC41MjEgNC42NTQgNC42NTQuODU0LjAzOSAxLjEyNS4wNDggMy4yOTguMDQ4czIuNDQ1LS4wMDkgMy4yOTktLjA0OGMyLjkwMi0uMTMzIDQuNTIyLTEuNzQ1IDQuNjUzLTQuNjU0LjAzOS0uODUzLjA0OC0xLjEyNS4wNDgtMy4yOTh6Ii8+PC9zdmc+"></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <p>Copyright@Rishabh <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgNC40MzVjLTEuOTg5LTUuMzk5LTEyLTQuNTk3LTEyIDMuNTY4IDAgNC4wNjggMy4wNiA5LjQ4MSAxMiAxNC45OTcgOC45NC01LjUxNiAxMi0xMC45MjkgMTItMTQuOTk3IDAtOC4xMTgtMTAtOC45OTktMTItMy41Njh6Ii8+PC9zdmc+"></p>
+</div>
+  </div>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwg_v0HMuGbsox4IfPiEyQFEt2HPLD9G0qY3-cAnwnk2mW5N6avIxHXl-qGxnKryZpY/exec'
+    const form = document.forms['submit-to-google-sheet']
+     const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+  </body>
+</html>
