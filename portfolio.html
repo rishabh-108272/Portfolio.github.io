@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="style1.css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div id="header">
     <div class="container">
         <nav>
             <a href="portfolio.html" target="_main" class="logo">Port<span>folio.</span></a>
-            <a href="portfolio.html" target="_main">
-                <img alt="logo" src="images/portfolio-logo.jpg">
+            
+                
              </a>
-        <ul>
+        <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul>      
+            <img alt="close" src="images/close.png" width="30px"  onclick="closemenu()">
+        </ul> 
+        <img alt="close" src="images/list.gif" width="30px"  onclick="openmenu()">     
      </nav>
      <div class="header-text">
         <p>Enthusiastic Learner</p>
@@ -145,8 +147,14 @@
             </div>
         </div>
     </div>
+    <div class="scroll-btn">
+        
+        <a href="#header"><img src="images/3646255.png" width="40px"></a>    
+    
+    </div>
     <div class="copyright">
     <p>Copyright@Rishabh <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgNC40MzVjLTEuOTg5LTUuMzk5LTEyLTQuNTk3LTEyIDMuNTY4IDAgNC4wNjggMy4wNiA5LjQ4MSAxMiAxNC45OTcgOC45NC01LjUxNiAxMi0xMC45MjkgMTItMTQuOTk3IDAtOC4xMTgtMTAtOC45OTktMTItMy41Njh6Ii8+PC9zdmc+"></p>
+    
 </div>
   </div>
   <script>
@@ -165,6 +173,17 @@
         } )
         .catch(error => console.error('Error!', error.message))
     })
+  </script>
+  <script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+        
+    }
   </script>
   </body>
 </html>
