@@ -365,7 +365,7 @@ form btn2{
   
 @media only screen and (max-width: 600px){
 	  body{
-      background-size:400px ;
+      background: width -400px ;
    }
    #header{
       background-image:url(images/giphy.gif);
