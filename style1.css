@@ -364,6 +364,9 @@ form btn2{
 /*-------------CSS for Small screens--*/
   
 @media only screen and (max-width: 600px){
+	  body{
+      background-size:400px ;
+   }
    #header{
       background-image:url(images/giphy.gif);
       
